@@ -1,0 +1,144 @@
+body > div>header{/* > means directly below. without it, it's eventually below*/
+  background-color: #000070;
+  height: 150px;
+  padding: 5px;
+}
+
+body{
+  background-color: #ffffff;
+}
+
+#logo{
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+#logo img{
+  width: 100px;
+  height: auto;
+}
+
+#logo p{
+  float:right;
+  margin-left: 50px;
+  color: #f0f0f0;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+nav{
+  float:left;
+  margin-right: 20px;
+  margin-top: 100px;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #f0f0ff;
+  padding: 10px 100px 10px 10px;
+}
+
+#overview{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #000070;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#overview .header{
+  background-color: #000070;
+  color: #f0f0f0;
+  height: 25px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+#overview .body{
+  background-color: #F0F0FF;
+  margin-top: 0;
+}
+
+#overview p{
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#rules{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #000070;
+}
+
+#rules .header{
+  background-color: #000070;
+  color: #f0f0f0;
+  font-weight: bold;
+  height: 25px;
+  padding-left: 10px;
+  padding-top: 5px;
+
+}
+
+#rules .body{
+  background-color: #F0F0FF;
+  margin-top: 0;
+}
+
+#rules p{
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#history{
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #000070;
+}
+
+#history .header{
+  background-color: #000070;
+  color: #f0f0f0;
+  font-weight: bold;
+  height: 25px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+#history .body{
+  padding-left: 10px;
+  background-color: #F0F0FF;
+  margin-top: 0;
+  }
+
+#history p{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
